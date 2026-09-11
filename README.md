@@ -190,8 +190,8 @@ assessment's AI usage policy:
   for architecture design, component scaffolding, Zustand store design, state
   management, responsive UI implementation, and debugging (fixing the ticket
   detail overlay, lean homepage data, error/loading/empty states, etc.).
-  **Deepseek v4 Flash**
-  **GLM 5.3 Flash**
+- **Deepseek v4 Flash**
+- **GLM 5.3 Flash**
 
 ---
 
