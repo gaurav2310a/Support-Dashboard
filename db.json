@@ -1,0 +1,403 @@
+{
+  "tickets": [
+    {
+      "id": "1",
+      "customerName": "Aarav Sharma",
+      "customerEmail": "aarav.sharma@merakiin.com",
+      "customerPhone": "+91 98200 11223",
+      "subject": "Payment charged twice for September invoice",
+      "description": "I was charged twice on September 3rd for the same invoice (#INV-2041). Both charges of Rs. 2,499 appear on my HDFC card ending 4412. I have attached the bank statement to my account portal. Please refund the duplicate charge as soon as possible.",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-09-08T09:24:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Aarav Sharma",
+          "body": "I noticed a duplicate charge on my card this morning. Invoice INV-2041 was billed twice at Rs. 2,499. Can you confirm and refund the extra charge?",
+          "timestamp": "2026-09-08T09:24:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Priya Nair",
+          "body": "Hi Aarav, thanks for flagging this. I can see two charges of Rs. 2,499 posted within two minutes of each other. I have escalated this to our billing team and requested a refund for the duplicate. You should see it within 3-5 business days.",
+          "timestamp": "2026-09-08T11:02:00Z"
+        },
+        {
+          "sender": "customer",
+          "author": "Aarav Sharma",
+          "body": "Thanks for the quick response. Please confirm once the refund has been issued.",
+          "timestamp": "2026-09-08T13:40:00Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "customerName": "Rohan Verma",
+      "customerEmail": "rohan.verma@medianexus.in",
+      "customerPhone": null,
+      "subject": "Cannot log in after password reset",
+      "description": "I reset my password using the email link last night, but the new password is not accepted. I get 'invalid credentials' even though I am sure I typed it correctly. I have tried on two browsers and cleared my cache.",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-09-10T02:15:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Rohan Verma",
+          "body": "Password reset completed last night but the new password is still rejected on login. This is blocking my team's access to the reports module.",
+          "timestamp": "2026-09-10T02:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "customerName": "Sneha Kulkarni",
+      "customerEmail": "sneha.kulkarni@aaryatrade.co",
+      "customerPhone": "+91 98801 44556",
+      "subject": "Export to CSV missing last two columns",
+      "description": "When I export the monthly activity report to CSV, the 'Revenue' and 'Margin' columns are missing. The on-screen report shows them correctly, so it seems to be an export bug. This affects our finance close process every month.",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-09-07T14:05:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Sneha Kulkarni",
+          "body": "The CSV export from the activity report is dropping the Revenue and Margin columns. Everything else comes through fine.",
+          "timestamp": "2026-09-07T14:05:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Aditya Malhotra",
+          "body": "Thanks Sneha, I was able to reproduce this on our side. It looks like a mapping bug introduced in the 4.12 release. Our engineering team has a fix scheduled for the next patch on Thursday. I will keep this ticket updated.",
+          "timestamp": "2026-09-07T15:20:00Z"
+        },
+        {
+          "sender": "customer",
+          "author": "Sneha Kulkarni",
+          "body": "Good to know. Thursday's patch works for us as long as it lands before the 15th.",
+          "timestamp": "2026-09-07T16:01:00Z"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "customerName": "Kavya Iyer",
+      "customerEmail": "kavya.iyer@flagstonefitness.in",
+      "customerPhone": "+91 90000 77889",
+      "subject": "How to add a second admin user?",
+      "description": "We just hired a new operations lead and I would like to give him admin access to the dashboard. I cannot find where to invite users with the admin role. Could you walk me through it?",
+      "priority": "Low",
+      "status": "Open",
+      "createdAt": "2026-09-05T10:12:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Kavya Iyer",
+          "body": "How do I add a second admin user to our workspace?",
+          "timestamp": "2026-09-05T10:12:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Priya Nair",
+          "body": "Hi Kavya! Go to Settings > Members, click 'Invite member', enter his email, and choose the Admin role from the dropdown before sending. He will get an email with a setup link. Let me know if you hit any snags.",
+          "timestamp": "2026-09-05T10:45:00Z"
+        },
+        {
+          "sender": "customer",
+          "author": "Kavya Iyer",
+          "body": "That did it, he is all set up. Thanks!",
+          "timestamp": "2026-09-05T11:30:00Z"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "customerName": "Arjun Reddy",
+      "customerEmail": "arjun.reddy@solarpeakenergy.in",
+      "customerPhone": null,
+      "subject": "Dashboard loads blank page in Safari",
+      "description": "Since updating to Safari 18.1, the main dashboard shows a blank white page after login. Chrome works fine. The console shows several script errors. Our field technicians use iPads exclusively, so this is urgent for us.",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-09-09T08:50:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Arjun Reddy",
+          "body": "Dashboard is completely blank in Safari 18.1 after login. Chrome on the same machine works. This is affecting our field techs on iPads.",
+          "timestamp": "2026-09-09T08:50:00Z"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "customerName": "Manish Gupta",
+      "customerEmail": "manish.gupta@harborviewre.in",
+      "customerPhone": "+91 98210 22334",
+      "subject": "Webhook retries causing duplicate entries",
+      "description": "Your webhook endpoint retried the same event five times yesterday when our server was briefly down, which created five duplicate records in our CRM. We handle idempotency, but it looks like the retry payload did not include the event ID.",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-09-09T16:32:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Manish Gupta",
+          "body": "Webhook retries yesterday created duplicate CRM records because the retry payload is missing the event ID header.",
+          "timestamp": "2026-09-09T16:32:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Aditya Malhotra",
+          "body": "Thanks for the detailed report, Manish. I have confirmed the retry payload omits the X-Event-ID header. I opened an internal issue and linked your ticket to it. As a workaround, our API also accepts deduplication by the 'deliveryAttemptId' field in the body.",
+          "timestamp": "2026-09-09T17:15:00Z"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "customerName": "Nandini Joshi",
+      "customerEmail": "nandini.joshi@willowcreek.org",
+      "customerPhone": "+91 98320 55667",
+      "subject": "Update billing email on file",
+      "description": "Our finance coordinator left the company. Please change the billing email on our account from finance@willowcreek.org to accounting@willowcreek.org. Invoices should start going to the new address this month.",
+      "priority": "Low",
+      "status": "In Progress",
+      "createdAt": "2026-09-04T09:00:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Nandini Joshi",
+          "body": "Please update our billing email to accounting@willowcreek.org going forward.",
+          "timestamp": "2026-09-04T09:00:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Aditya Malhotra",
+          "body": "Done! The billing email is now accounting@willowcreek.org. The September 15th invoice will be sent to the new address. Anything else I can help with?",
+          "timestamp": "2026-09-04T09:38:00Z"
+        },
+        {
+          "sender": "customer",
+          "author": "Nandini Joshi",
+          "body": "Perfect, that is all. Thank you.",
+          "timestamp": "2026-09-04T10:02:00Z"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "customerName": "Devansh Patel",
+      "customerEmail": "devansh.patel@atlasfreight.in",
+      "customerPhone": "+91 98765 44556",
+      "subject": "API rate limit too low for nightly sync",
+      "description": "Our nightly inventory sync job hits the 60 requests/minute rate limit and fails partway through. We have around 9,000 SKUs and the job takes about 12 minutes at the current limit. Could we get a temporary limit increase while we optimize the job?",
+      "priority": "Medium",
+      "status": "In Progress",
+      "createdAt": "2026-09-06T22:47:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Devansh Patel",
+          "body": "Nightly sync keeps failing on the rate limit (60 req/min). Requesting a temporary increase to 300 req/min for account ATLAS-PROD-2.",
+          "timestamp": "2026-09-06T22:47:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Priya Nair",
+          "body": "Hi Devansh, I reviewed your usage and a temporary increase to 300 req/min for 30 days is approved. I am just waiting on final sign-off from engineering, then I will apply it to ATLAS-PROD-2.",
+          "timestamp": "2026-09-07T08:20:00Z"
+        },
+        {
+          "sender": "customer",
+          "author": "Devansh Patel",
+          "body": "Great, let me know once it is live. I will re-run the sync that night.",
+          "timestamp": "2026-09-07T09:05:00Z"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "customerName": "Tanvi Desai",
+      "customerEmail": "tanvi.desai@summitgear.in",
+      "customerPhone": null,
+      "subject": "Order confirmation emails going to spam",
+      "description": "A growing number of our customers say order confirmation emails from your notification service are landing in spam. We use our own domain with DKIM configured. About 15% of confirmations last week were reported as spam.",
+      "priority": "High",
+      "status": "Open",
+      "createdAt": "2026-09-10T11:18:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Tanvi Desai",
+          "body": "Order confirmations are landing in customer spam folders at an increasing rate. This is hurting our support volume. Can you check your sending reputation or help with SPF/DKIM alignment?",
+          "timestamp": "2026-09-10T11:18:00Z"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "customerName": "Ishaan Rao",
+      "customerEmail": "ishaan.rao@nordicfjord.in",
+      "customerPhone": "+91 99200 33445",
+      "subject": "Time zone shows UTC instead of IST",
+      "description": "All timestamps in the dashboard show UTC even though my profile time zone is set to Asia/Kolkata. Other users in our office see IST correctly. I have re-saved my profile settings twice.",
+      "priority": "Low",
+      "status": "In Progress",
+      "createdAt": "2026-09-05T13:25:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Ishaan Rao",
+          "body": "My dashboard timestamps all show UTC. Profile time zone is Asia/Kolkata and saved, but it still renders UTC.",
+          "timestamp": "2026-09-05T13:25:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Aditya Malhotra",
+          "body": "Thanks Ishaan. I see your profile is set correctly, but there is a browser locale override in your account preferences that may be forcing UTC. I have asked engineering to investigate; in the meantime, could you check Settings > Preferences > Date & Time and confirm 'Follow system locale' is unchecked?",
+          "timestamp": "2026-09-05T14:10:00Z"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "customerName": "Meera Krishnan",
+      "customerEmail": "meera.krishnan@civictrust.in",
+      "customerPhone": "+91 98111 22334",
+      "subject": "Request: API documentation for audit logs",
+      "description": "We are building an internal compliance tool and need programmatic access to audit logs. Is there an API endpoint for fetching audit events, and where can I find the documentation for it?",
+      "priority": "Low",
+      "status": "Resolved",
+      "createdAt": "2026-09-03T15:55:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Meera Krishnan",
+          "body": "Where can I find the API documentation for audit logs? We are building an internal compliance tool.",
+          "timestamp": "2026-09-03T15:55:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Priya Nair",
+          "body": "Hi Meera, the audit logs API is documented at docs.supportdesk.io/api/audit-logs. You will need an API key with the 'audit:read' scope, which I can enable for your account if you confirm you are an account owner.",
+          "timestamp": "2026-09-03T16:30:00Z"
+        },
+        {
+          "sender": "customer",
+          "author": "Meera Krishnan",
+          "body": "I am the owner. Please enable it. The docs link is exactly what I needed.",
+          "timestamp": "2026-09-03T17:05:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Priya Nair",
+          "body": "The audit:read scope is now enabled on your API key. Happy building! I will close this ticket, but feel free to reopen if anything is unclear.",
+          "timestamp": "2026-09-03T17:22:00Z"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "customerName": "Zaid Khan",
+      "customerEmail": "zaid.khan@dunegulf.in",
+      "customerPhone": "+91 98900 66778",
+      "subject": "Duplicate customer records after import",
+      "description": "I imported our contacts CSV this morning and now many customers appear twice. The import seemed to ignore the 'Email' column as the unique key. I need help cleaning up the duplicates without losing order history.",
+      "priority": "Medium",
+      "status": "Open",
+      "createdAt": "2026-09-10T07:42:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Zaid Khan",
+          "body": "Ran a CSV import at 07:30 UTC and it created duplicates for about 400 customers. Please advise on the safest way to merge them.",
+          "timestamp": "2026-09-10T07:42:00Z"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "customerName": "Ananya Menon",
+      "customerEmail": "ananya.menon@ateliervert.in",
+      "customerPhone": "+91 97690 22334",
+      "subject": "Invoice PDF not downloading",
+      "description": "When I click 'Download PDF' on any invoice, the browser shows a blank tab and nothing downloads. I have tried Firefox and Edge on Windows 11. I need August's invoice for our accountant before the end of the week.",
+      "priority": "Medium",
+      "status": "Resolved",
+      "createdAt": "2026-09-02T10:20:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Ananya Menon",
+          "body": "Invoice PDF downloads are failing in both Firefox and Edge. Blank tab, no file.",
+          "timestamp": "2026-09-02T10:20:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Aditya Malhotra",
+          "body": "Hi Ananya, we had a misconfigured CDN cache on the invoice generation service. It has been fixed. Could you try again? If it still fails, I can email the PDF directly.",
+          "timestamp": "2026-09-02T11:05:00Z"
+        },
+        {
+          "sender": "customer",
+          "author": "Ananya Menon",
+          "body": "It works now, thank you for the fast fix!",
+          "timestamp": "2026-09-02T12:14:00Z"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "customerName": "Kabir Bhatia",
+      "customerEmail": "kabir.bhatia@truenorthout.in",
+      "customerPhone": null,
+      "subject": "Two-factor authentication codes not arriving",
+      "description": "2FA codes sent by SMS stopped arriving yesterday. I can access the account from my current session, but I cannot approve new device logins for our warehouse team. My phone number on file is correct.",
+      "priority": "High",
+      "status": "In Progress",
+      "createdAt": "2026-09-09T05:33:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Kabir Bhatia",
+          "body": "SMS 2FA codes are not arriving. This blocks three warehouse team members from logging in on new devices.",
+          "timestamp": "2026-09-09T05:33:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Priya Nair",
+          "body": "Hi Kabir, I see delivery failures on our SMS provider for your region since yesterday. I have switched your account to email-based 2FA as an immediate workaround and resent the codes. We are also investigating the provider issue.",
+          "timestamp": "2026-09-09T06:10:00Z"
+        },
+        {
+          "sender": "customer",
+          "author": "Kabir Bhatia",
+          "body": "Email codes came through, so we are unblocked. Please let me know when SMS is reliable again.",
+          "timestamp": "2026-09-09T06:48:00Z"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "customerName": "Aisha Kapoor",
+      "customerEmail": "aisha.kapoor@papertigpress.in",
+      "customerPhone": "+91 98500 66778",
+      "subject": "Question about plan upgrade proration",
+      "description": "We want to upgrade from the Growth plan to Scale next week. Will the first invoice be prorated for the remaining days of the month, or will we pay the full Scale price immediately?",
+      "priority": "Low",
+      "status": "Open",
+      "createdAt": "2026-09-10T14:08:00Z",
+      "conversation": [
+        {
+          "sender": "customer",
+          "author": "Aisha Kapoor",
+          "body": "If we upgrade to Scale mid-month, how is the first invoice calculated? Prorated or full price?",
+          "timestamp": "2026-09-10T14:08:00Z"
+        }
+      ]
+    }
+  ]
+}
