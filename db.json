@@ -28,6 +28,12 @@
           "author": "Aarav Sharma",
           "body": "Thanks for the quick response. Please confirm once the refund has been issued.",
           "timestamp": "2026-09-08T13:40:00Z"
+        },
+        {
+          "sender": "agent",
+          "author": "Support Agent",
+          "body": "Testing",
+          "timestamp": "2026-09-11T05:04:09.763Z"
         }
       ]
     },
